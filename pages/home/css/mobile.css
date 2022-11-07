@@ -1,0 +1,63 @@
+@media (max-width: 790px) {
+    header{
+        width: 100%;
+    }
+    .container{
+        width: 22.5rem;
+        height: 3.75rem;
+    }
+    body > header {
+        box-sizing: border-box;
+        background-color: var(--color-white);
+        padding: 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 3;
+        width: 100%;
+    }
+    
+    body > header > div {
+        margin: 0 auto;
+        max-width: 72.5rem;
+    }
+    
+    body > header > div  > img {
+        height: 1rem;
+    }
+    
+    body > header > div  > .container > div {
+        box-sizing: border-box;
+        width: 100%;
+        gap: 4%;
+        background-color: var(--color-white);
+        display: none;
+        padding: 1.5rem;
+        position: absolute;
+        right: 0;
+        bottom: -5.9rem;
+        z-index: 2;
+        box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    body > header > div  > .container:hover > .material-symbols-outlined {
+        animation: menuAnimation 1s;
+    }
+    
+    body > header > div  > .container:hover > div {
+        display: flex;
+    }
+    
+    body > header > div > .container > div button {
+        width: 9rem;
+        max-width: 48vw;
+        height: 3rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    main > nav{
+        background-image: none;
+    }
+  }
+
+  

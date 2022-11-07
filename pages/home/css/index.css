@@ -1,0 +1,86 @@
+body > header{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.248);
+}
+
+header > div > div{
+    display: flex;
+    gap: 0.75rem;
+}
+.container {
+    width: 76rem;
+    max-width: 100%;
+    height: 5rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+body > main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+main nav{
+    width: 34.375rem;
+    height: 46.375rem;
+}
+
+.info-container{
+    background-color: #F8F8F8;
+    box-shadow:  3px 2px 5px 2px rgba(0, 0, 0, 0.488);
+}
+
+.header-box-container{
+    background-color: var(--color-grey-1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10rem;
+    padding: 1rem;
+    color: var(--color-grey-2);
+}
+nav ul{
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 42rem;
+}
+
+ul li{
+    width: 30.5rem;
+    height: 8.375rem;
+    background-color: var(--color-grey-2);
+    gap: 0.75rem;
+    padding: 1rem;
+    margin-left: 1.875rem ;
+    margin-right: 1.75rem;
+    margin-top: 1.875rem;
+    box-shadow: 0 1px var(--color-grey-1);
+}
+
+#select-sector{
+    background-color: var(--color-grey-1);
+    width: 34.375rem;
+    border: 1px solid var(--color-grey-1);
+    color: var(--color-grey-2);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    color: var(--color-grey-1);
+    text-align: center;
+    border: 1px solid var(--color-grey-1);
+    height: 2rem;
+    width: 7rem;
+    border-radius: 0.938rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

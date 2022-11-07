@@ -1,0 +1,1 @@
+window.location.assign("../pages/home/home.html")

@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aling-items-center{
+    display: flex;
+    align-items: center;
+}

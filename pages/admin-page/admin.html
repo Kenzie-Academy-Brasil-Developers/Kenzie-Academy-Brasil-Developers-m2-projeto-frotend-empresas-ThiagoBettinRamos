@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <title>Admin - Kenzie Empresas</title>
+</head>
+<body>
+    <header class="aling-items-center">
+        <div class="container flex justify-space-between aling-items-center">
+            <img src="../../assets/logo.png" alt="logo">
+            <div>
+                <button id="logout-admin">Logout</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav class="container-1">
+            <h2>Departamento</h2>
+            <select id="select-admin">
+                <option value="">Selecionar Empresa</option>
+            </select>
+            <button type="button" id="create-deparment_button"><img src="../../assets/Vector (6).png">Criar</button>
+        </nav>
+        <nav>
+            <ul id="ul-departaments">
+            </ul>
+        </nav>
+        <nav>
+            <h1>Usuários cadastrados</h1>
+        </nav>
+        <nav>
+            <ul id="user-ul">
+            </ul>
+        </nav>
+    </main>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

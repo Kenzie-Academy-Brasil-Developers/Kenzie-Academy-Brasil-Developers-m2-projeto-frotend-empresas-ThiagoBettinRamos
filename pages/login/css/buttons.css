@@ -1,0 +1,32 @@
+button{
+    width: 26.375rem;
+    height: 3rem;
+}
+#back-home-login{
+    width: 8.875rem;
+    height: 3rem;
+    background-color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-1);
+    color: var(--color-grey-1);
+}
+
+#back-register{
+    width: 8.875rem;
+    height: 3rem;
+    background-color: var(--color-grey-1);
+    border: 1px solid var(--color-grey-1);
+    color: var(--color-grey-2);
+}
+
+#login-user{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-1);
+}
+
+
+#register-login{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-1);
+    border: 1px solid var(--color-grey-1);
+}
